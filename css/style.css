@@ -7,18 +7,17 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 
 /* variables */
+/* Default dark theme styles */
 :root {
-  /* Colors */
   --primary-color: #f05b21;
   --secondary-color: #f05b21;
-  --bg-primary: #ffffff;
-  --text-color: #222222;
-  --text-color-two: #ffffff;
-  --bg-secondary: #000000;
-  --card-background: #f4f4f4;
-  --bg-secondary-two: #111111;
-
-  --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  --bg-primary: #000000;
+  --text-color: #ffffff;
+  --text-color-two: #222222;
+  --bg-secondary: #ffffff;
+  --card-background: #111111;
+  --bg-secondary-two: #f4f4f4;
+  --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
 
   /* Font Weight */
   --weight-small: 400;
@@ -31,17 +30,19 @@
   --width-large: 1300px;
 }
 
-[data-theme="dark"] {
+/* Light theme styles */
+[data-theme="light"] {
   --primary-color: #f05b21;
   --secondary-color: #f05b21;
-  --bg-primary: #000000;
-  --text-color: #ffffff;
-  --text-color-two: #222222;
-  --bg-secondary: #ffffff;
-  --card-background: #111111;
-  --bg-secondary-two: #f4f4f4;
-  --shadow: 0 2px 10px rgba(95, 95, 95, 0.2);
+  --bg-primary: #ffffff;
+  --text-color: #222222;
+  --text-color-two: #ffffff;
+  --bg-secondary: #000000;
+  --card-background: #f4f4f4;
+  --bg-secondary-two: #111111;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
 }
+
 
 html {
   font-size: 100%;
