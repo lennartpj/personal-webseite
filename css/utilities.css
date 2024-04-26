@@ -156,7 +156,7 @@ h2::selection {
 
 /* Project 4 */
 .card:nth-child(5) {
-  background: url(../assets/project/OpenShift.jpeg) center center/cover;
+  background: url(../assets/project/OpenShift.jpg) center center/cover;
 }
 
 /* Media Queries */
