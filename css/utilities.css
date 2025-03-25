@@ -159,6 +159,42 @@ h2::selection {
   background: url(../assets/project/OpenShift.jpg) center center/cover;
 }
 
+/* Project 6 */
+.card:nth-child(6) {
+  background: url(../assets/project/oracle.svg) center center/cover;
+}
+
+/* Project 7 */
+.card:nth-child(7) {
+  background: url(../assets/project/mssql.svg) center center/cover;
+}
+
+/* Project 8 */
+.card:nth-child(8) {
+  background: url(../assets/project/ssl.svg) center center/cover;
+}
+
+/* Project 9 */
+.card:nth-child(9) {
+  background: url(../assets/project/proxmox.svg) center center/cover;
+} 
+
+/* Project 10 */
+.card:nth-child(10) {
+  background: url(../assets/project/vaultwarden.svg) center center/cover;
+} 
+
+/* Project 11 */
+.card:nth-child(11) {
+  background: url(../assets/project/adguard.svg) center center/cover;
+} 
+
+/* Project 12 */
+.card:nth-child(12) {
+  background: url(../assets/project/gitea.svg) center center/cover;
+} 
+
+
 /* Media Queries */
 @media (max-width: 768px) {
   .header-container {
